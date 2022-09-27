@@ -13,4 +13,4 @@ def function_cicd(request):
     elif request_json and 'message' in request_json:
         return request_json['message']
     else:
-        return f'Hello Nolan! This is a serverless function v1.1'
+        return f'Hello Nolan! This is a serverless function v1.3'
